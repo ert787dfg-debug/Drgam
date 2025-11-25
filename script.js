@@ -3,6 +3,7 @@ let currentIndex = 0;
 let score = 0;
 let selectedTopic = null;
 let selectedSubject = null;
+let isArabic = false; // حالة الترجمة
 
 const topicScreen = document.getElementById('topicScreen');
 const topicsEl = document.getElementById('topics');
@@ -23,6 +24,7 @@ const dataStructure = {
   "الصفحة الأولى": ["أجهزة"]
 };
 
+// عرض المواضيع
 function renderTopics() {
   topicsEl.innerHTML = '';
   Object.keys(dataStructure).forEach(topic => {
@@ -74,6 +76,8 @@ function renderQuestion() {
   qEl.textContent = q.text;
   feedbackEl.textContent = '';
   choicesEl.innerHTML = '';
+  isArabic = false; // إعادة للحالة الافتراضية عند كل سؤال
+  translateBtn.textContent = "🌍 ترجمة للعربية";
 
   q.choices.forEach((choiceText, idx) => {
     const li = document.createElement('li');
@@ -133,15 +137,29 @@ restartBtn?.addEventListener('click', () => {
   renderTopics();
 });
 
+// تبديل الثيم مع الإيموجي
 themeToggle?.addEventListener('click', () => {
   document.body.classList.toggle('night');
   document.body.classList.toggle('day');
+
+  if (document.body.classList.contains('night')) {
+    themeToggle.textContent = "☀️ الوضع النهاري";
+  } else {
+    themeToggle.textContent = "🌙 الوضع الليلي";
+  }
 });
 
+// ترجمة ثنائية (عربي ↔ إنكليزي)
 translateBtn?.addEventListener('click', () => {
   const q = questions[currentIndex];
-  if (q.text_ar) {
+  if (!isArabic && q.text_ar) {
     qEl.textContent = q.text_ar;
+    translateBtn.textContent = "🌍 عرض بالإنكليزي";
+    isArabic = true;
+  } else {
+    qEl.textContent = q.text;
+    translateBtn.textContent = "🌍 ترجمة للعربية";
+    isArabic = false;
   }
 });
 
