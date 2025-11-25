@@ -106,22 +106,5 @@
       "correct": "صحيح، الميزة الأساسية هي Electron beam tomography.",
       "wrong": "الإجابة الصحيحة هي Electron beam tomography."
     }
-  },
-
-  ... (باقي الأسئلة من 10 إلى 23 بنفس البنية تحت الجزء الأول) ...,
-
-  {
-    "topic": "الجزء الثاني",
-    "subject": "أجهزة",
-    "text": "What is the main limitation of the 3rd generation CT scanner?",
-    "text_ar": "ما هي المحدودية الرئيسية للجيل الثالث من جهاز CT؟",
-    "choices": ["Ring artifacts", "Slow scanning", "Beam hardening", "Noise"],
-    "answer": 0,
-    "feedback": {
-      "correct": "صحيح، المحدودية الرئيسية هي Ring artifacts.",
-      "wrong": "الإجابة الصحيحة هي Ring artifacts."
-    }
-  },
-
-  ... (باقي الأسئلة من 24 إلى 47 بنفس البنية تحت الجزء الثاني) ...
+  }
 ]
