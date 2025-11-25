@@ -1,242 +1,49 @@
-[
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "What is the beam shape in the 1st generation CT scanner?",
-    "text_ar": "ما هو شكل الحزمة في الجيل الأول من جهاز CT؟",
-    "choices": ["Fan-shaped beam", "Pencil-shaped beam", "Circular beam", "Linear beam"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الحزمة كانت Pencil-shaped.",
-      "wrong": "الإجابة الصحيحة هي Pencil-shaped."
+{
+  "questions": [
+    {
+      "topic": "تجريبي",
+      "subject": "CT",
+      "text": "What is the beam shape in the 1st generation CT scanner?",
+      "text_ar": "ما هو شكل الحزمة في الجيل الأول من جهاز CT؟",
+      "choices": ["Fan-shaped beam", "Pencil-shaped beam", "Circular beam", "Linear beam"],
+      "answer": 1,
+      "feedback": { "correct": "صحيح، الحزمة كانت Pencil-shaped.", "wrong": "الإجابة الصحيحة هي Pencil-shaped." }
+    },
+    {
+      "topic": "تجريبي",
+      "subject": "CT",
+      "text": "How many detectors were used in the 2nd generation CT scanner?",
+      "text_ar": "كم عدد الكواشف في الجيل الثاني من جهاز CT؟",
+      "choices": ["One", "Two", "About 30", "More than 100"],
+      "answer": 2,
+      "feedback": { "correct": "صحيح، حوالي 30 كاشف.", "wrong": "الإجابة الصحيحة هي About 30." }
+    },
+    {
+      "topic": "تجريبي",
+      "subject": "CT",
+      "text": "What is one advantage of spiral CT compared to conventional CT?",
+      "text_ar": "ما هي إحدى مزايا التصوير الحلزوني مقارنةً بالتقليدي؟",
+      "choices": ["Fewer images", "Faster scanning", "Lower contrast", "Single detector"],
+      "answer": 1,
+      "feedback": { "correct": "صحيح، أسرع بالمسح.", "wrong": "الإجابة الصحيحة هي Faster scanning." }
+    },
+    {
+      "topic": "تجريبي",
+      "subject": "CT",
+      "text": "What technology allows continuous rotation in CT scanners?",
+      "text_ar": "ما التقنية التي تسمح بالدوران المستمر في أجهزة CT؟",
+      "choices": ["Collimators", "Slip ring", "DAS", "Filter"],
+      "answer": 1,
+      "feedback": { "correct": "صحيح، Slip ring.", "wrong": "الإجابة الصحيحة هي Slip ring." }
+    },
+    {
+      "topic": "تجريبي",
+      "subject": "CT",
+      "text": "Which of the following are gantry components?",
+      "text_ar": "أيٌ مما يلي يُعد من مكونات الجانتري؟",
+      "choices": ["Tube, detectors, filters, collimators, ADC", "Detector only", "Computer only", "Generator only"],
+      "answer": 0,
+      "feedback": { "correct": "صحيح، هذه هي المكونات.", "wrong": "الإجابة الصحيحة هي Tube, detectors, filters, collimators, ADC." }
     }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "How many detectors were used in the 2nd generation CT scanner?",
-    "text_ar": "كم عدد الكواشف المستخدمة في الجيل الثاني من جهاز CT؟",
-    "choices": ["One", "Two", "About 30", "More than 100"],
-    "answer": 2,
-    "feedback": {
-      "correct": "صحيح، حوالي 30 كاشف.",
-      "wrong": "الإجابة الصحيحة هي About 30."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "What is the primary difference between the 1st and 2nd generation CT scanners?",
-    "text_ar": "ما هو الفرق الأساسي بين الجيل الأول والثاني من أجهزة CT؟",
-    "choices": ["Beam type", "Number of detectors", "Rotation speed", "Tube design"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الفرق الأساسي هو عدد الكواشف.",
-      "wrong": "الإجابة الصحيحة هي Number of detectors."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "What is the configuration of the 3rd generation CT scanner?",
-    "text_ar": "ما هي هيئة الجيل الثالث من جهاز CT؟",
-    "choices": ["Rotate-rotate", "Translate-rotate", "Stationary-rotate", "Spiral-rotate"],
-    "answer": 0,
-    "feedback": {
-      "correct": "صحيح، الجيل الثالث كان Rotate-rotate.",
-      "wrong": "الإجابة الصحيحة هي Rotate-rotate."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "What artifact is common in the 3rd generation CT scanner?",
-    "text_ar": "ما هو التشويه الشائع في الجيل الثالث من جهاز CT؟",
-    "choices": ["Noise", "Ring artifact", "Motion artifact", "Beam hardening"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، Ring artifact شائع في الجيل الثالث.",
-      "wrong": "الإجابة الصحيحة هي Ring artifact."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "What was the purpose of developing the 4th generation CT scanner?",
-    "text_ar": "ما هو الهدف من تطوير الجيل الرابع من جهاز CT؟",
-    "choices": ["Reduce noise", "Suppress ring artifacts", "Increase detector number", "Improve contrast"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الهدف كان Suppress ring artifacts.",
-      "wrong": "الإجابة الصحيحة هي Suppress ring artifacts."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "What is the configuration of the 4th generation CT scanner?",
-    "text_ar": "ما هي هيئة الجيل الرابع من جهاز CT؟",
-    "choices": ["Rotate-rotate", "Rotate-stationary", "Translate-rotate", "Stationary-stationary"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الجيل الرابع كان Rotate-stationary.",
-      "wrong": "الإجابة الصحيحة هي Rotate-stationary."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "أجهزة",
-    "text": "What is the key feature of the 5th generation CT scanner?",
-    "text_ar": "ما هي الميزة الأساسية للجيل الخامس من جهاز CT؟",
-    "choices": ["Spiral scanning", "Electron beam tomography", "Multi-slice scanning", "Low-energy scanning"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الميزة الأساسية هي Electron beam tomography.",
-      "wrong": "الإجابة الصحيحة هي Electron beam tomography."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "المكونات",
-    "text": "What is the function of the X-ray tube in a CT scanner?",
-    "text_ar": "ما هي وظيفة أنبوب الأشعة السينية في جهاز CT؟",
-    "choices": ["Produce X-rays", "Filter the beam", "Convert signals", "Reconstruct images"],
-    "answer": 0,
-    "feedback": {
-      "correct": "صحيح، وظيفة الأنبوب هي إنتاج الأشعة السينية.",
-      "wrong": "الإجابة الصحيحة هي Produce X-rays."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "المكونات",
-    "text": "What type of detector is commonly used in CT scanners?",
-    "text_ar": "ما نوع الكاشف المستخدم عادة في أجهزة CT؟",
-    "choices": ["Gas detector", "Solid-state detector", "Thermal detector", "Mechanical detector"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الكاشف المستخدم هو Solid-state detector.",
-      "wrong": "الإجابة الصحيحة هي Solid-state detector."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "المكونات",
-    "text": "What is the purpose of the Data Acquisition System (DAS)?",
-    "text_ar": "ما هو الغرض من نظام جمع البيانات (DAS)؟",
-    "choices": ["Produce X-rays", "Convert analog signals to digital signals", "Improve contrast", "Filter the beam"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الغرض هو تحويل الإشارات التناظرية إلى رقمية.",
-      "wrong": "الإجابة الصحيحة هي Convert analog signals to digital signals."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "المكونات",
-    "text": "What is the typical gantry aperture size in most CT scanners?",
-    "text_ar": "ما هو حجم فتحة الجانتري النموذجي في معظم أجهزة CT؟",
-    "choices": ["50 cm", "60 cm", "70 cm", "80 cm"],
-    "answer": 2,
-    "feedback": {
-      "correct": "صحيح، الحجم النموذجي هو 70 cm.",
-      "wrong": "الإجابة الصحيحة هي 70 cm."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "المكونات",
-    "text": "What is the tilting range of most CT scanners?",
-    "text_ar": "ما هو نطاق الميلان في معظم أجهزة CT؟",
-    "choices": ["Less than 10°", "15°", "30+°", "90°"],
-    "answer": 2,
-    "feedback": {
-      "correct": "صحيح، النطاق هو أكثر من 30°.",
-      "wrong": "الإجابة الصحيحة هي 30+°."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "المكونات",
-    "text": "Which of the following are gantry components?",
-    "text_ar": "أي من التالي يعد من مكونات الجانتري؟",
-    "choices": ["Tube, detectors, filters, collimators, ADC", "Detector, computer, patient couch", "Tube only", "Generator only"],
-    "answer": 0,
-    "feedback": {
-      "correct": "صحيح، المكونات هي Tube, detectors, filters, collimators, ADC.",
-      "wrong": "الإجابة الصحيحة هي Tube, detectors, filters, collimators, ADC."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "تقنيات حديثة",
-    "text": "What technology allows continuous rotation in CT scanners?",
-    "text_ar": "ما هي التقنية التي تسمح بالدوران المستمر في أجهزة CT؟",
-    "choices": ["Collimators", "Slip ring", "DAS", "Filter"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، التقنية هي Slip ring.",
-      "wrong": "الإجابة الصحيحة هي Slip ring."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "تقنيات حديثة",
-    "text": "What is one advantage of spiral CT compared to conventional CT?",
-    "text_ar": "ما هي إحدى مزايا التصوير الحلزوني مقارنة بالتصوير التقليدي؟",
-    "choices": ["Fewer images", "Faster scanning", "Lower contrast", "Single detector"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الميزة هي Faster scanning.",
-      "wrong": "الإجابة الصحيحة هي Faster scanning."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "تقنيات حديثة",
-    "text": "Which of the following is a benefit of spiral CT?",
-    "text_ar": "أي من التالي يعد فائدة للتصوير الحلزوني CT؟",
-    "choices": ["Improved detection of small lesions", "Reduced noise only", "Fewer detectors", "Shorter reconstruction time"],
-    "answer": 0,
-    "feedback": {
-      "correct": "صحيح، الفائدة هي Improved detection of small lesions.",
-      "wrong": "الإجابة الصحيحة هي Improved detection of small lesions."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "تقنيات حديثة",
-    "text": "What is the key feature of dual-source CT scanners?",
-    "text_ar": "ما هي الميزة الأساسية لأجهزة CT ثنائية المصدر؟",
-    "choices": ["One tube and two detectors", "Two tubes and one detector", "One tube and one detector", "Two tubes and two detectors"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الميزة الأساسية هي Two tubes and one detector.",
-      "wrong": "الإجابة الصحيحة هي Two tubes and one detector."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "تقنيات حديثة",
-    "text": "What is the purpose of slip ring technology in CT scanners?",
-    "text_ar": "ما هو الغرض من تقنية السليب رينغ في أجهزة CT؟",
-    "choices": ["Connect tube to detector", "Connect generator to tube without cables", "Reduce noise", "Increase detector number"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الغرض هو توصيل المولد بالأنبوب بدون كابلات.",
-      "wrong": "الإجابة الصحيحة هي Connect generator to tube without cables."
-    }
-  },
-  {
-    "topic": "أسئلة CT",
-    "subject": "فلاتر وكوليماتور",
-    "text": "What is the purpose of the beam hardening filter in CT?",
-    "text_ar": "ما هو الغرض من فلتر تقسية الحزمة في جهاز CT؟",
-    "choices": ["Reduce noise", "Reduce beam hardening artifacts", "Improve contrast", "Increase energy"],
-    "answer": 1,
-    "feedback": {
-      "correct": "صحيح، الغرض هو تقليل تشوهات تقسية الحزمة.",
-      "wrong": "الإجابة الصحيحة هي Reduce beam hardening artifacts."
-    }
-  }
-]
+  ]
+}
