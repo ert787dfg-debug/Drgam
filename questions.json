@@ -3,6 +3,7 @@
     "topic": "الصفحة الأولى",
     "subject": "أجهزة",
     "text": "What is the major advantage of helical CT compared to earlier CT technologies?",
+    "text_ar": "ما هي الميزة الرئيسية للتصوير المقطعي الحلزوني مقارنة بالتقنيات السابقة؟",
     "choices": [
       "Less scatter radiation",
       "Better contrast resolution",
@@ -19,6 +20,7 @@
     "topic": "الصفحة الأولى",
     "subject": "أجهزة",
     "text": "Who developed the first clinically useful CT scanner?",
+    "text_ar": "من هو الذي طور أول جهاز تصوير مقطعي محوسب مفيد سريريًا؟",
     "choices": [
       "Hounsfield",
       "Mayo",
@@ -35,6 +37,7 @@
     "topic": "الصفحة الأولى",
     "subject": "أجهزة",
     "text": "When was the first clinical brain scanner used at Mayo Clinic?",
+    "text_ar": "متى تم استخدام أول جهاز تصوير دماغ سريري في Mayo Clinic؟",
     "choices": [
       "1967",
       "1973",
@@ -51,6 +54,7 @@
     "topic": "الصفحة الأولى",
     "subject": "أجهزة",
     "text": "Which of the following is a limitation of conventional CT?",
+    "text_ar": "أي من التالي يُعد من محدوديات التصوير المقطعي التقليدي؟",
     "choices": [
       "Short exam time",
       "No tissue overlap",
@@ -67,6 +71,7 @@
     "topic": "الصفحة الأولى",
     "subject": "أجهزة",
     "text": "Which imaging method can detect tumors more accurately than x-ray?",
+    "text_ar": "أي طريقة تصوير يمكنها كشف الأورام بدقة أكثر من الأشعة السينية؟",
     "choices": [
       "Ultrasound",
       "MRI",
@@ -83,6 +88,7 @@
     "topic": "الصفحة الأولى",
     "subject": "أجهزة",
     "text": "Which is an advantage of CT over conventional radiography?",
+    "text_ar": "ما هي إحدى مزايا التصوير المقطعي مقارنة بالأشعة التقليدية؟",
     "choices": [
       "More scatter radiation",
       "Superimposition of tissues",
