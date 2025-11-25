@@ -1,0 +1,98 @@
+[
+  {
+    "topic": "الصفحة الأولى",
+    "subject": "أجهزة",
+    "text": "What is the major advantage of helical CT compared to earlier CT technologies?",
+    "choices": [
+      "Less scatter radiation",
+      "Better contrast resolution",
+      "Faster scanning times",
+      "No tissue superimposition"
+    ],
+    "answer": 2,
+    "feedback": {
+      "correct": "صحيح، الميزة الرئيسية هي Faster scanning times.",
+      "wrong": "الإجابة الصحيحة هي Faster scanning times."
+    }
+  },
+  {
+    "topic": "الصفحة الأولى",
+    "subject": "أجهزة",
+    "text": "Who developed the first clinically useful CT scanner?",
+    "choices": [
+      "Hounsfield",
+      "Mayo",
+      "Roentgen",
+      "Einstein"
+    ],
+    "answer": 0,
+    "feedback": {
+      "correct": "صحيح، Hounsfield هو من طور أول جهاز CT مفيد سريريًا.",
+      "wrong": "الإجابة الصحيحة هي Hounsfield."
+    }
+  },
+  {
+    "topic": "الصفحة الأولى",
+    "subject": "أجهزة",
+    "text": "When was the first clinical brain scanner used at Mayo Clinic?",
+    "choices": [
+      "1967",
+      "1973",
+      "1980",
+      "1955"
+    ],
+    "answer": 1,
+    "feedback": {
+      "correct": "صحيح، أول جهاز مسح دماغ سريري استخدم عام 1973.",
+      "wrong": "الإجابة الصحيحة هي 1973."
+    }
+  },
+  {
+    "topic": "الصفحة الأولى",
+    "subject": "أجهزة",
+    "text": "Which of the following is a limitation of conventional CT?",
+    "choices": [
+      "Short exam time",
+      "No tissue overlap",
+      "Longer exam time",
+      "High contrast resolution"
+    ],
+    "answer": 2,
+    "feedback": {
+      "correct": "صحيح، من محدوديات CT التقليدي هو Longer exam time.",
+      "wrong": "الإجابة الصحيحة هي Longer exam time."
+    }
+  },
+  {
+    "topic": "الصفحة الأولى",
+    "subject": "أجهزة",
+    "text": "Which imaging method can detect tumors more accurately than x-ray?",
+    "choices": [
+      "Ultrasound",
+      "MRI",
+      "CT scan",
+      "PET"
+    ],
+    "answer": 2,
+    "feedback": {
+      "correct": "صحيح، CT scan يكشف الأورام بدقة أكثر من الأشعة السينية.",
+      "wrong": "الإجابة الصحيحة هي CT scan."
+    }
+  },
+  {
+    "topic": "الصفحة الأولى",
+    "subject": "أجهزة",
+    "text": "Which is an advantage of CT over conventional radiography?",
+    "choices": [
+      "More scatter radiation",
+      "Superimposition of tissues",
+      "Better contrast resolution",
+      "Longer exam time"
+    ],
+    "answer": 2,
+    "feedback": {
+      "correct": "صحيح، من مزايا CT هو Better contrast resolution.",
+      "wrong": "الإجابة الصحيحة هي Better contrast resolution."
+    }
+  }
+]
