@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>منصة الأسئلة</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="night">
+  <header>
+    <h1>منصة الأسئلة متعددة الخيارات</h1>
+    <button id="themeToggle">تبديل الثيم</button>
+  </header>
+
+  <main>
+    <section id="topicScreen">
+      <h2>اختر الموضوع</h2>
+      <ul id="topics"></ul>
+    </section>
+
+    <section id="subjectScreen" class="hidden">
+      <h2>اختر المادة</h2>
+      <ul id="subjects"></ul>
+    </section>
+
+    <section id="quiz" class="hidden">
+      <div id="questionCounter"></div>
+      <div id="question"></div>
+      <ul id="choices"></ul>
+      <div id="feedback"></div>
+      <button id="translateBtn">ترجمة للعربية</button>
+    </section>
+
+    <section id="resultPanel" class="hidden">
+      <h2>النتيجة النهائية</h2>
+      <p id="scoreText"></p>
+      <button id="restartBtn">إعادة الاختبار</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
