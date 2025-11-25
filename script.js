@@ -8,7 +8,6 @@ const topicScreen = document.getElementById('topicScreen');
 const topicsEl = document.getElementById('topics');
 const subjectScreen = document.getElementById('subjectScreen');
 const subjectsEl = document.getElementById('subjects');
-const startBtn = document.getElementById('startBtn');
 const quiz = document.getElementById('quiz');
 const qCounter = document.getElementById('questionCounter');
 const qEl = document.getElementById('question');
@@ -20,12 +19,12 @@ const restartBtn = document.getElementById('restartBtn');
 const themeToggle = document.getElementById('themeToggle');
 const translateBtn = document.getElementById('translateBtn');
 
+// هيكل المواضيع والمواد
 const dataStructure = {
   "الصفحة الأولى": ["أجهزة"]
 };
 
-renderTopics();
-
+// عرض المواضيع
 function renderTopics() {
   topicsEl.innerHTML = '';
   Object.keys(dataStructure).forEach(topic => {
@@ -37,6 +36,7 @@ function renderTopics() {
   });
 }
 
+// اختيار موضوع
 function selectTopic(topic) {
   selectedTopic = topic;
   topicScreen.classList.add('hidden');
@@ -44,6 +44,7 @@ function selectTopic(topic) {
   renderSubjects(topic);
 }
 
+// عرض المواد
 function renderSubjects(topic) {
   subjectsEl.innerHTML = '';
   dataStructure[topic].forEach(subject => {
@@ -55,12 +56,14 @@ function renderSubjects(topic) {
   });
 }
 
+// اختيار مادة → بدء الاختبار
 function selectSubject(subject) {
   selectedSubject = subject;
   subjectScreen.classList.add('hidden');
   startQuiz();
 }
 
+// بدء الاختبار
 async function startQuiz() {
   const res = await fetch('questions.json');
   const allQuestions = await res.json();
@@ -71,6 +74,7 @@ async function startQuiz() {
   renderQuestion();
 }
 
+// عرض سؤال
 function renderQuestion() {
   const q = questions[currentIndex];
   qCounter.textContent = `السؤال ${currentIndex + 1} من ${questions.length}`;
@@ -88,6 +92,7 @@ function renderQuestion() {
   });
 }
 
+// عند اختيار إجابة
 function onSelect(idx, li) {
   const q = questions[currentIndex];
   const isCorrect = idx === q.answer;
@@ -116,6 +121,7 @@ function onSelect(idx, li) {
   }, 1500);
 }
 
+// عرض النتيجة
 function showResult() {
   quiz.classList.add('hidden');
   resultPanel.classList.remove('hidden');
@@ -123,4 +129,33 @@ function showResult() {
   const percent = Math.round((score / total) * 100);
 
   let message = '';
-  if (percent >= 80)
+  if (percent >= 80) message = "ممتاز 👏";
+  else if (percent >= 50) message = "جيد 🙂";
+  else message = "تحتاج مراجعة أكثر 😅";
+
+  scoreText.textContent = `درجتك: ${score} من ${total} (${percent}%) - ${message}`;
+}
+
+// إعادة الاختبار
+restartBtn.addEventListener('click', () => {
+  resultPanel.classList.add('hidden');
+  topicScreen.classList.remove('hidden');
+  renderTopics();
+});
+
+// تبديل الثيم
+themeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('night');
+  document.body.classList.toggle('day');
+});
+
+// ترجمة السؤال فقط
+translateBtn.addEventListener('click', () => {
+  const q = questions[currentIndex];
+  if (q.text_ar) {
+    qEl.textContent = q.text_ar;
+  }
+});
+
+// استدعاء المواضيع عند البداية
+renderTopics();
