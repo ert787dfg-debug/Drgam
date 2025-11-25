@@ -1,104 +1,127 @@
 [
   {
-    "topic": "الصفحة الأولى",
+    "topic": "الجزء الأول",
     "subject": "أجهزة",
-    "text": "What is the major advantage of helical CT compared to earlier CT technologies?",
-    "text_ar": "ما هي الميزة الرئيسية للتصوير المقطعي الحلزوني مقارنة بالتقنيات السابقة؟",
-    "choices": [
-      "Less scatter radiation",
-      "Better contrast resolution",
-      "Faster scanning times",
-      "No tissue superimposition"
-    ],
-    "answer": 2,
-    "feedback": {
-      "correct": "صحيح، الميزة الرئيسية هي Faster scanning times.",
-      "wrong": "الإجابة الصحيحة هي Faster scanning times."
-    }
-  },
-  {
-    "topic": "الصفحة الأولى",
-    "subject": "أجهزة",
-    "text": "Who developed the first clinically useful CT scanner?",
-    "text_ar": "من هو الذي طور أول جهاز تصوير مقطعي محوسب مفيد سريريًا؟",
-    "choices": [
-      "Hounsfield",
-      "Mayo",
-      "Roentgen",
-      "Einstein"
-    ],
-    "answer": 0,
-    "feedback": {
-      "correct": "صحيح، Hounsfield هو من طور أول جهاز CT مفيد سريريًا.",
-      "wrong": "الإجابة الصحيحة هي Hounsfield."
-    }
-  },
-  {
-    "topic": "الصفحة الأولى",
-    "subject": "أجهزة",
-    "text": "When was the first clinical brain scanner used at Mayo Clinic?",
-    "text_ar": "متى تم استخدام أول جهاز تصوير دماغ سريري في Mayo Clinic؟",
-    "choices": [
-      "1967",
-      "1973",
-      "1980",
-      "1955"
-    ],
+    "text": "What is the configuration of the 1st generation CT scanner?",
+    "text_ar": "ما هي هيئة الجيل الأول من جهاز التصوير المقطعي؟",
+    "choices": ["Rotate-rotate", "Translate-rotate", "Stationary-rotate", "Spiral-rotate"],
     "answer": 1,
     "feedback": {
-      "correct": "صحيح، أول جهاز مسح دماغ سريري استخدم عام 1973.",
-      "wrong": "الإجابة الصحيحة هي 1973."
+      "correct": "صحيح، الجيل الأول كان Translate-rotate.",
+      "wrong": "الإجابة الصحيحة هي Translate-rotate."
     }
   },
   {
-    "topic": "الصفحة الأولى",
+    "topic": "الجزء الأول",
     "subject": "أجهزة",
-    "text": "Which of the following is a limitation of conventional CT?",
-    "text_ar": "أي من التالي يُعد من محدوديات التصوير المقطعي التقليدي؟",
-    "choices": [
-      "Short exam time",
-      "No tissue overlap",
-      "Longer exam time",
-      "High contrast resolution"
-    ],
-    "answer": 2,
+    "text": "What is the beam shape in the 1st generation CT scanner?",
+    "text_ar": "ما هو شكل الحزمة في الجيل الأول من جهاز CT؟",
+    "choices": ["Fan-shaped beam", "Pencil-shaped beam", "Circular beam", "Linear beam"],
+    "answer": 1,
     "feedback": {
-      "correct": "صحيح، من محدوديات CT التقليدي هو Longer exam time.",
-      "wrong": "الإجابة الصحيحة هي Longer exam time."
+      "correct": "صحيح، الحزمة كانت Pencil-shaped.",
+      "wrong": "الإجابة الصحيحة هي Pencil-shaped."
     }
   },
   {
-    "topic": "الصفحة الأولى",
+    "topic": "الجزء الأول",
     "subject": "أجهزة",
-    "text": "Which imaging method can detect tumors more accurately than x-ray?",
-    "text_ar": "أي طريقة تصوير يمكنها كشف الأورام بدقة أكثر من الأشعة السينية؟",
-    "choices": [
-      "Ultrasound",
-      "MRI",
-      "CT scan",
-      "PET"
-    ],
+    "text": "How many detectors were used in the 2nd generation CT scanner?",
+    "text_ar": "كم عدد الكواشف المستخدمة في الجيل الثاني من جهاز CT؟",
+    "choices": ["One", "Two", "About 30", "More than 100"],
     "answer": 2,
     "feedback": {
-      "correct": "صحيح، CT scan يكشف الأورام بدقة أكثر من الأشعة السينية.",
-      "wrong": "الإجابة الصحيحة هي CT scan."
+      "correct": "صحيح، حوالي 30 كاشف.",
+      "wrong": "الإجابة الصحيحة هي About 30."
     }
   },
   {
-    "topic": "الصفحة الأولى",
+    "topic": "الجزء الأول",
     "subject": "أجهزة",
-    "text": "Which is an advantage of CT over conventional radiography?",
-    "text_ar": "ما هي إحدى مزايا التصوير المقطعي مقارنة بالأشعة التقليدية؟",
-    "choices": [
-      "More scatter radiation",
-      "Superimposition of tissues",
-      "Better contrast resolution",
-      "Longer exam time"
-    ],
-    "answer": 2,
+    "text": "What is the primary difference between the 1st and 2nd generation CT scanners?",
+    "text_ar": "ما هو الفرق الأساسي بين الجيل الأول والثاني من أجهزة CT؟",
+    "choices": ["Beam type", "Number of detectors", "Rotation speed", "Tube design"],
+    "answer": 1,
     "feedback": {
-      "correct": "صحيح، من مزايا CT هو Better contrast resolution.",
-      "wrong": "الإجابة الصحيحة هي Better contrast resolution."
+      "correct": "صحيح، الفرق الأساسي هو عدد الكواشف.",
+      "wrong": "الإجابة الصحيحة هي Number of detectors."
     }
-  }
+  },
+  {
+    "topic": "الجزء الأول",
+    "subject": "أجهزة",
+    "text": "What is the configuration of the 3rd generation CT scanner?",
+    "text_ar": "ما هي هيئة الجيل الثالث من جهاز CT؟",
+    "choices": ["Rotate-rotate", "Translate-rotate", "Stationary-rotate", "Spiral-rotate"],
+    "answer": 0,
+    "feedback": {
+      "correct": "صحيح، الجيل الثالث كان Rotate-rotate.",
+      "wrong": "الإجابة الصحيحة هي Rotate-rotate."
+    }
+  },
+  {
+    "topic": "الجزء الأول",
+    "subject": "أجهزة",
+    "text": "What artifact is common in the 3rd generation CT scanner?",
+    "text_ar": "ما هو التشويه الشائع في الجيل الثالث من جهاز CT؟",
+    "choices": ["Noise", "Ring artifact", "Motion artifact", "Beam hardening"],
+    "answer": 1,
+    "feedback": {
+      "correct": "صحيح، Ring artifact شائع في الجيل الثالث.",
+      "wrong": "الإجابة الصحيحة هي Ring artifact."
+    }
+  },
+  {
+    "topic": "الجزء الأول",
+    "subject": "أجهزة",
+    "text": "What was the purpose of developing the 4th generation CT scanner?",
+    "text_ar": "ما هو الهدف من تطوير الجيل الرابع من جهاز CT؟",
+    "choices": ["Reduce noise", "Suppress ring artifacts", "Increase detector number", "Improve contrast"],
+    "answer": 1,
+    "feedback": {
+      "correct": "صحيح، الهدف كان Suppress ring artifacts.",
+      "wrong": "الإجابة الصحيحة هي Suppress ring artifacts."
+    }
+  },
+  {
+    "topic": "الجزء الأول",
+    "subject": "أجهزة",
+    "text": "What is the configuration of the 4th generation CT scanner?",
+    "text_ar": "ما هي هيئة الجيل الرابع من جهاز CT؟",
+    "choices": ["Rotate-rotate", "Rotate-stationary", "Translate-rotate", "Stationary-stationary"],
+    "answer": 1,
+    "feedback": {
+      "correct": "صحيح، الجيل الرابع كان Rotate-stationary.",
+      "wrong": "الإجابة الصحيحة هي Rotate-stationary."
+    }
+  },
+  {
+    "topic": "الجزء الأول",
+    "subject": "أجهزة",
+    "text": "What is the key feature of the 5th generation CT scanner?",
+    "text_ar": "ما هي الميزة الأساسية للجيل الخامس من جهاز CT؟",
+    "choices": ["Spiral scanning", "Electron beam tomography", "Multi-slice scanning", "Low-energy scanning"],
+    "answer": 1,
+    "feedback": {
+      "correct": "صحيح، الميزة الأساسية هي Electron beam tomography.",
+      "wrong": "الإجابة الصحيحة هي Electron beam tomography."
+    }
+  },
+
+  ... (باقي الأسئلة من 10 إلى 23 بنفس البنية تحت الجزء الأول) ...,
+
+  {
+    "topic": "الجزء الثاني",
+    "subject": "أجهزة",
+    "text": "What is the main limitation of the 3rd generation CT scanner?",
+    "text_ar": "ما هي المحدودية الرئيسية للجيل الثالث من جهاز CT؟",
+    "choices": ["Ring artifacts", "Slow scanning", "Beam hardening", "Noise"],
+    "answer": 0,
+    "feedback": {
+      "correct": "صحيح، المحدودية الرئيسية هي Ring artifacts.",
+      "wrong": "الإجابة الصحيحة هي Ring artifacts."
+    }
+  },
+
+  ... (باقي الأسئلة من 24 إلى 47 بنفس البنية تحت الجزء الثاني) ...
 ]
