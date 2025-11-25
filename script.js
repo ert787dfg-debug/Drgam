@@ -19,12 +19,10 @@ const restartBtn = document.getElementById('restartBtn');
 const themeToggle = document.getElementById('themeToggle');
 const translateBtn = document.getElementById('translateBtn');
 
-// هيكل المواضيع والمواد
 const dataStructure = {
   "الصفحة الأولى": ["أجهزة"]
 };
 
-// عرض المواضيع
 function renderTopics() {
   topicsEl.innerHTML = '';
   Object.keys(dataStructure).forEach(topic => {
@@ -36,7 +34,6 @@ function renderTopics() {
   });
 }
 
-// اختيار موضوع
 function selectTopic(topic) {
   selectedTopic = topic;
   topicScreen.classList.add('hidden');
@@ -44,7 +41,6 @@ function selectTopic(topic) {
   renderSubjects(topic);
 }
 
-// عرض المواد
 function renderSubjects(topic) {
   subjectsEl.innerHTML = '';
   dataStructure[topic].forEach(subject => {
@@ -56,14 +52,12 @@ function renderSubjects(topic) {
   });
 }
 
-// اختيار مادة → بدء الاختبار
 function selectSubject(subject) {
   selectedSubject = subject;
   subjectScreen.classList.add('hidden');
   startQuiz();
 }
 
-// بدء الاختبار
 async function startQuiz() {
   const res = await fetch('questions.json');
   const allQuestions = await res.json();
@@ -74,7 +68,6 @@ async function startQuiz() {
   renderQuestion();
 }
 
-// عرض سؤال
 function renderQuestion() {
   const q = questions[currentIndex];
   qCounter.textContent = `السؤال ${currentIndex + 1} من ${questions.length}`;
@@ -92,7 +85,6 @@ function renderQuestion() {
   });
 }
 
-// عند اختيار إجابة
 function onSelect(idx, li) {
   const q = questions[currentIndex];
   const isCorrect = idx === q.answer;
@@ -121,7 +113,6 @@ function onSelect(idx, li) {
   }, 1500);
 }
 
-// عرض النتيجة
 function showResult() {
   quiz.classList.add('hidden');
   resultPanel.classList.remove('hidden');
@@ -136,26 +127,22 @@ function showResult() {
   scoreText.textContent = `درجتك: ${score} من ${total} (${percent}%) - ${message}`;
 }
 
-// إعادة الاختبار
-restartBtn.addEventListener('click', () => {
+restartBtn?.addEventListener('click', () => {
   resultPanel.classList.add('hidden');
   topicScreen.classList.remove('hidden');
   renderTopics();
 });
 
-// تبديل الثيم
-themeToggle.addEventListener('click', () => {
+themeToggle?.addEventListener('click', () => {
   document.body.classList.toggle('night');
   document.body.classList.toggle('day');
 });
 
-// ترجمة السؤال فقط
-translateBtn.addEventListener('click', () => {
+translateBtn?.addEventListener('click', () => {
   const q = questions[currentIndex];
   if (q.text_ar) {
     qEl.textContent = q.text_ar;
   }
 });
 
-// استدعاء المواضيع عند البداية
 renderTopics();
